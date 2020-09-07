@@ -1,0 +1,13 @@
+[package]
+name = "mitool"
+version = "0.0.1"
+authors = ["silvester"]
+edition = "2018"
+description = "A mips instruction tool."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.17"
+regex = "1.3.9"
+phf = { version = "0.7.24", features = ["macros"] }
